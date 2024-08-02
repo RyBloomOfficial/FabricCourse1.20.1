@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.rybloom.mccourse.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "mccourse",
+	"version": "${version}",
+	"name": "MC Course Mod",
+	"description": "This mod is from a course from Kaupenjoe",
+	"authors": [
+		"Rybloom",
+		"Course from Kaupenjoe"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/mccourse/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.rybloom.mccourse.MCCourseMod"
+		],
+		"fabric-datagen": [
+			"net.rybloom.mccourse.MCCourseModDataGenerator"
+		],
+		"client": [
+			"net.rybloom.mccourse.MCCourseModClient"
+		]
+	},
+	"mixins": [
+		"mccourse.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
