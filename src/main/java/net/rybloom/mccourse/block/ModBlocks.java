@@ -20,6 +20,7 @@ public class ModBlocks {
     public static final Block FLUORITE_BLOCK = registerBlock("fluorite_block",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.AMETHYST_BLOCK)
                     .strength(4f).requiresTool()));
+
     public static final Block FLUORITE_ORE = registerBlock("fluorite_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
                     AbstractBlock.Settings.create().strength(4f).requiresTool()));
