@@ -2,6 +2,7 @@ package net.rybloom.mccourse;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.rybloom.mccourse.block.ModBlocks;
 import net.rybloom.mccourse.item.ModItemGroups;
 import net.rybloom.mccourse.item.ModItems;
 import org.slf4j.Logger;
@@ -16,5 +17,6 @@ public class MCCourseMod implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlocks();
 	}
 }

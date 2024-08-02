@@ -10,6 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.rybloom.mccourse.MCCourseMod;
+import net.rybloom.mccourse.block.ModBlocks;
 
 public class ModItemGroups {
 
@@ -25,7 +26,11 @@ public class ModItemGroups {
             Identifier.of(MCCourseMod.MOD_ID, "fluorite_blocks"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.fluorite_blocks"))
                     .icon(() -> new ItemStack(ModItems.RAW_FLUORITE)).entries((displayContext, entries) -> {
-                        entries.add(new ItemStack(Blocks.HAY_BLOCK));
+                        entries.add(ModBlocks.FLUORITE_BLOCK);
+                        entries.add(ModBlocks.FLUORITE_ORE);
+                        entries.add(ModBlocks.FLUORITE_DEEPSLATE_ORE);
+                        entries.add(ModBlocks.FLUORITE_END_ORE);
+                        entries.add(ModBlocks.FLUORITE_NETHER_ORE);
 
                     }).build());
 
