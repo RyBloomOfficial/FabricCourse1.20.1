@@ -2,6 +2,8 @@ package net.rybloom.mccourse;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.rybloom.mccourse.item.ModItemGroups;
+import net.rybloom.mccourse.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,6 +14,7 @@ public class MCCourseMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 	}
 }
