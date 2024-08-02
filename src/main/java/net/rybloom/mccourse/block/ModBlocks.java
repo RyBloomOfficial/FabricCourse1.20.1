@@ -27,6 +27,7 @@ public class ModBlocks {
     public static final Block FLUORITE_DEEPSLATE_ORE = registerBlock("fluorite_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
                     AbstractBlock.Settings.create().strength(4f).requiresTool()));
+
     public static final Block FLUORITE_END_ORE = registerBlock("fluorite_end_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
                     AbstractBlock.Settings.create().strength(4f).requiresTool()));
