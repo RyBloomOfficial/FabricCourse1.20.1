@@ -2,6 +2,7 @@ package net.rybloom.mccourse;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.rybloom.mccourse.block.ModBlocks;
 import net.rybloom.mccourse.item.ModItemGroups;
 import net.rybloom.mccourse.item.ModItems;
@@ -18,5 +19,7 @@ public class MCCourseMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
 	}
 }

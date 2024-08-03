@@ -21,6 +21,8 @@ public class ModItemGroups {
                         entries.add(new ItemStack(ModItems.FLUORITE));
                         entries.add(new ItemStack(ModItems.RAW_FLUORITE));
 
+                        entries.add(new ItemStack(ModItems.STARLIGHT_ASHES));
+
                         entries.add(new ItemStack(ModItems.CHAINSAW));
 
                         entries.add(new ItemStack(ModItems.STRAWBERRY));
