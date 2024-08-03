@@ -1,4 +1,4 @@
-// 1.21	2024-08-03T10:33:46.8126715	MC Course Mod/Model Definitions
+// 1.21	2024-08-03T10:44:51.9247376	MC Course Mod/Model Definitions
 e6fc48f58bef61ebac04a2e34156ad2d475179fc assets\mccourse\models\item\fluorite_block.json
 faea40b98cbb7269c546a7d3e42c40858c74ad52 assets\mccourse\models\block\fluorite_door_top_left.json
 b7d666bc87397258200dc27a96395ba532b6a945 assets\mccourse\models\block\fluorite_deepslate_ore.json
@@ -10,13 +10,13 @@ b7d666bc87397258200dc27a96395ba532b6a945 assets\mccourse\models\block\fluorite_d
 77f2e3e1ebf7ca2a617cdcac9faab72f16d804c8 assets\mccourse\models\item\fluorite_stairs.json
 267ad4c229822b23674b8d23f4ac984b5586f42e assets\mccourse\models\block\fluorite_stairs.json
 e6ced7216024c5cce6d858f5e244470abb5ee021 assets\mccourse\models\block\fluorite_fence_inventory.json
-2fce96086e9f5cf192ff814534fccf1c771b0406 assets\mccourse\models\block\fluorite_door_bottom_left.json
 1c86b3ae324e2b38a13ec0792def9fce389b23a6 assets\mccourse\models\item\raw_fluorite.json
+2fce96086e9f5cf192ff814534fccf1c771b0406 assets\mccourse\models\block\fluorite_door_bottom_left.json
 18614f2c0beb398707f0e5080851a87ff6f5de1d assets\mccourse\models\block\fluorite_door_top_right.json
 fac5d28dfafaf4ed309fe8f9bd7013d25ee2114a assets\mccourse\blockstates\fluorite_slab.json
 7c97822324151c00344bb3016998dd28fcaffdb2 assets\mccourse\blockstates\fluorite_fence.json
-a28afaf6baa46a2ec0d7bbd7981973ca78d422d9 assets\mccourse\blockstates\fluorite_pressure_plate.json
 4d3289c10cdcdfff9327db225949a134a9b73498 assets\mccourse\blockstates\fluorite_stairs.json
+a28afaf6baa46a2ec0d7bbd7981973ca78d422d9 assets\mccourse\blockstates\fluorite_pressure_plate.json
 21b764a80215339889ae737da9e17ab25bd2b0eb assets\mccourse\models\block\fluorite_wall_post.json
 3f4c691525311c8cb54c14e4fb9676a449183eb1 assets\mccourse\blockstates\fluorite_block.json
 21dabca8f137210561856b1abab9f4e43f19070b assets\mccourse\models\block\fluorite_door_bottom_left_open.json

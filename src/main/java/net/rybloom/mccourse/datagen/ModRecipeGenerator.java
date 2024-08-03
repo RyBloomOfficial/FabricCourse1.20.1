@@ -27,9 +27,12 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
     public void generate(RecipeExporter exporter) {
         List<ItemConvertible> FLUORITE_SMELTABLES = List.of(ModItems.RAW_FLUORITE, ModBlocks.FLUORITE_ORE,
                 ModBlocks.FLUORITE_DEEPSLATE_ORE, ModBlocks.FLUORITE_END_ORE, ModBlocks.FLUORITE_NETHER_ORE);
+        List<ItemConvertible> STARLIGHT_ASH_SMELTABLES = List.of(ModItems.FLUORITE);
 
         offerSmelting(exporter, FLUORITE_SMELTABLES, RecipeCategory.MISC, ModItems.FLUORITE, 0.2f, 200, "fluorite" );
         offerBlasting(exporter, FLUORITE_SMELTABLES, RecipeCategory.MISC, ModItems.FLUORITE, 0.2f, 100, "fluorite" );
+        offerSmelting(exporter, STARLIGHT_ASH_SMELTABLES, RecipeCategory.MISC, ModItems.STARLIGHT_ASHES, 0.2f, 200, "fluorite" );
+        offerBlasting(exporter, STARLIGHT_ASH_SMELTABLES, RecipeCategory.MISC, ModItems.STARLIGHT_ASHES, 0.2f, 100, "fluorite" );
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.FLUORITE, RecipeCategory.DECORATIONS, ModBlocks.FLUORITE_BLOCK);
 

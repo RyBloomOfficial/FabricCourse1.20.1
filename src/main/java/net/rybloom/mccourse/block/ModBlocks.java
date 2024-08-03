@@ -25,21 +25,21 @@ public class ModBlocks {
             new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
 
     public static final Block FLUORITE_BUTTON = registerBlock("fluorite_button",
-            new ButtonBlock(BlockSetType.IRON, 10, AbstractBlock.Settings.create().requiresTool()));
+            new ButtonBlock(BlockSetType.IRON, 10, AbstractBlock.Settings.create().strength(2f).requiresTool()));
     public static final Block FLUORITE_PRESSURE_PLATE = registerBlock("fluorite_pressure_plate",
-            new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().requiresTool()));
+            new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).requiresTool()));
 
     public static final Block FLUORITE_FENCE = registerBlock("fluorite_fence",
-            new FenceBlock(AbstractBlock.Settings.create().requiresTool()));
+            new FenceBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
     public static final Block FLUORITE_FENCE_GATE = registerBlock("fluorite_fence_gate",
-            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.create().requiresTool()));
+            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.create().strength(2f).requiresTool()));
     public static final Block FLUORITE_WALL = registerBlock("fluorite_wall",
-            new WallBlock(AbstractBlock.Settings.create().requiresTool()));
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
 
     public static final Block FLUORITE_DOOR = registerBlock("fluorite_door",
-            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().requiresTool().nonOpaque()));
+            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
     public static final Block FLUORITE_TRAPDOOR = registerBlock("fluorite_trapdoor",
-            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().requiresTool().nonOpaque()));
+            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
 
     public static final Block FLUORITE_ORE = registerBlock("fluorite_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
