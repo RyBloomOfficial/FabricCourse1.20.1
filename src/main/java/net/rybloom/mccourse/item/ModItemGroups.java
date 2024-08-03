@@ -39,6 +39,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FLUORITE_PRESSURE_PLATE);
                         entries.add(ModBlocks.FLUORITE_BUTTON);
 
+                        entries.add(ModBlocks.FLUORITE_FENCE);
+                        entries.add(ModBlocks.FLUORITE_FENCE_GATE);
+                        entries.add(ModBlocks.FLUORITE_WALL);
+
                         entries.add(ModBlocks.FLUORITE_ORE);
                         entries.add(ModBlocks.FLUORITE_DEEPSLATE_ORE);
                         entries.add(ModBlocks.FLUORITE_END_ORE);
