@@ -18,12 +18,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.FLUORITE_BLOCK,
+                        ModBlocks.FLUORITE_STAIRS,
+                        ModBlocks.FLUORITE_SLAB,
                         ModBlocks.FLUORITE_NETHER_ORE,
                         ModBlocks.FLUORITE_END_ORE,
                         ModBlocks.FLUORITE_ORE,
                         ModBlocks.FLUORITE_DEEPSLATE_ORE,
-                        ModBlocks.FLUORITE_STAIRS,
-                        ModBlocks.FLUORITE_SLAB,
+                        ModBlocks.FLUORITE_BUTTON,
+                        ModBlocks.FLUORITE_PRESSURE_PLATE,
                         ModBlocks.MAGIC_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
