@@ -5,6 +5,8 @@
     "mccourse:fluorite_end_ore",
     "mccourse:fluorite_ore",
     "mccourse:fluorite_deepslate_ore",
+    "mccourse:fluorite_stairs",
+    "mccourse:fluorite_slab",
     "mccourse:magic_block"
   ]
 }

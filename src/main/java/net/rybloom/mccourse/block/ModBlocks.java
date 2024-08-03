@@ -1,9 +1,7 @@
 package net.rybloom.mccourse.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -39,6 +37,10 @@ public class ModBlocks {
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
             new MagicBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
 
+    public static final Block FLUORITE_STAIRS = registerBlock("fluorite_stairs",
+            new StairsBlock(ModBlocks.FLUORITE_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block FLUORITE_SLAB = registerBlock("fluorite_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
 
 
     private static Block registerBlock(String name, Block block) {

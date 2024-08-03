@@ -31,8 +31,10 @@ public class ModItemGroups {
     public static final ItemGroup FLUORITE_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(MCCourseMod.MOD_ID, "fluorite_blocks"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.fluorite_blocks"))
-                    .icon(() -> new ItemStack(ModItems.RAW_FLUORITE)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModBlocks.FLUORITE_BLOCK)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.FLUORITE_BLOCK);
+                        entries.add(ModBlocks.FLUORITE_STAIRS);
+                        entries.add(ModBlocks.FLUORITE_SLAB);
 
                         entries.add(ModBlocks.FLUORITE_ORE);
                         entries.add(ModBlocks.FLUORITE_DEEPSLATE_ORE);
