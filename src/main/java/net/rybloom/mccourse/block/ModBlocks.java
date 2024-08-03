@@ -13,6 +13,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.rybloom.mccourse.MCCourseMod;
+import net.rybloom.mccourse.block.custom.MagicBlock;
 import net.rybloom.mccourse.item.ModItems;
 
 public class ModBlocks {
@@ -35,6 +36,8 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
                     AbstractBlock.Settings.create().strength(4f).requiresTool()));
 
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block",
+            new MagicBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
 
 
 

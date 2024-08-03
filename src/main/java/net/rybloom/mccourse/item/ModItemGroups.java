@@ -28,11 +28,13 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.fluorite_blocks"))
                     .icon(() -> new ItemStack(ModItems.RAW_FLUORITE)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.FLUORITE_BLOCK);
+
                         entries.add(ModBlocks.FLUORITE_ORE);
                         entries.add(ModBlocks.FLUORITE_DEEPSLATE_ORE);
                         entries.add(ModBlocks.FLUORITE_END_ORE);
                         entries.add(ModBlocks.FLUORITE_NETHER_ORE);
 
+                        entries.add(ModBlocks.MAGIC_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {
