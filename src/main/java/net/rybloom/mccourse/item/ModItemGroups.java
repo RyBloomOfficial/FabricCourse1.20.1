@@ -43,6 +43,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FLUORITE_FENCE_GATE);
                         entries.add(ModBlocks.FLUORITE_WALL);
 
+                        entries.add(ModBlocks.FLUORITE_DOOR);
+                        entries.add(ModBlocks.FLUORITE_TRAPDOOR);
+
                         entries.add(ModBlocks.FLUORITE_ORE);
                         entries.add(ModBlocks.FLUORITE_DEEPSLATE_ORE);
                         entries.add(ModBlocks.FLUORITE_END_ORE);

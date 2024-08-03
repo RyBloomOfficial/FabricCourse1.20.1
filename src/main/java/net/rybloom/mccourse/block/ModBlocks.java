@@ -36,6 +36,11 @@ public class ModBlocks {
     public static final Block FLUORITE_WALL = registerBlock("fluorite_wall",
             new WallBlock(AbstractBlock.Settings.create().requiresTool()));
 
+    public static final Block FLUORITE_DOOR = registerBlock("fluorite_door",
+            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().requiresTool().nonOpaque()));
+    public static final Block FLUORITE_TRAPDOOR = registerBlock("fluorite_trapdoor",
+            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().requiresTool().nonOpaque()));
+
     public static final Block FLUORITE_ORE = registerBlock("fluorite_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
                     AbstractBlock.Settings.create().strength(4f).requiresTool()));

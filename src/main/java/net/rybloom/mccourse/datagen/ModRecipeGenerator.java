@@ -106,5 +106,31 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .input('F', ModItems.FLUORITE)
                 .criterion(hasItem(ModItems.FLUORITE), conditionsFromItem(ModItems.FLUORITE))
                 .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLUORITE_WALL)
+                .pattern("   ")
+                .pattern("FDF")
+                .pattern("FDF")
+                .input('F', ModBlocks.FLUORITE_BLOCK)
+                .input('D', ModItems.FLUORITE)
+                .criterion(hasItem(ModBlocks.FLUORITE_BLOCK), conditionsFromItem(ModBlocks.FLUORITE_BLOCK))
+                .criterion(hasItem(ModItems.FLUORITE), conditionsFromItem(ModItems.FLUORITE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLUORITE_DOOR)
+                .pattern(" FF")
+                .pattern(" FF")
+                .pattern(" FF")
+                .input('F', ModBlocks.FLUORITE_BLOCK)
+                .criterion(hasItem(ModBlocks.FLUORITE_BLOCK), conditionsFromItem(ModBlocks.FLUORITE_BLOCK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLUORITE_TRAPDOOR)
+                .pattern("   ")
+                .pattern("FFF")
+                .pattern("FFF")
+                .input('F', ModBlocks.FLUORITE_BLOCK)
+                .criterion(hasItem(ModBlocks.FLUORITE_BLOCK), conditionsFromItem(ModBlocks.FLUORITE_BLOCK))
+                .offerTo(exporter);
     }
 }
