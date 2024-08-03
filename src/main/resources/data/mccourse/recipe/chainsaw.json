@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "mccourse:fluorite"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "  I",
+    "II ",
+    "## "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mccourse:chainsaw"
+  }
+}
