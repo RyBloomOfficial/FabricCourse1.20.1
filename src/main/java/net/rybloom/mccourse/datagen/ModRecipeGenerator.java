@@ -36,6 +36,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.FLUORITE, RecipeCategory.DECORATIONS, ModBlocks.FLUORITE_BLOCK);
 
+        // MISC Recipes
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_FLUORITE)
                 .pattern("SSS")
                 .pattern("SFS")
@@ -56,16 +57,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.FLUORITE), conditionsFromItem(ModItems.FLUORITE))
                 .offerTo(exporter, Identifier.of(MCCourseMod.MOD_ID, "raw_fluorite_2"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CHAINSAW)
-                .pattern("  I")
-                .pattern("FF ")
-                .pattern("II ")
-                .input('I', Items.IRON_INGOT)
-                .input('F', ModItems.FLUORITE)
-                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
-                .criterion(hasItem(ModItems.FLUORITE), conditionsFromItem(ModItems.FLUORITE))
-                .offerTo(exporter);
-
+        // Blocks/Doors/Buttons/Etc... Recipes
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MAGIC_BLOCK)
                 .pattern("DFD")
                 .pattern("FEF")
@@ -135,5 +127,68 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .input('F', ModBlocks.FLUORITE_BLOCK)
                 .criterion(hasItem(ModBlocks.FLUORITE_BLOCK), conditionsFromItem(ModBlocks.FLUORITE_BLOCK))
                 .offerTo(exporter);
+
+        // TOOL RECIPES
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.FLUORITE_PICKAXE)
+                .pattern("FFF")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('F', ModItems.FLUORITE)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.FLUORITE), conditionsFromItem(ModItems.FLUORITE))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.FLUORITE_AXE)
+                .pattern(" FF")
+                .pattern(" SF")
+                .pattern(" S ")
+                .input('F', ModItems.FLUORITE)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.FLUORITE), conditionsFromItem(ModItems.FLUORITE))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.FLUORITE_HOE)
+                .pattern(" FF")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('F', ModItems.FLUORITE)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.FLUORITE), conditionsFromItem(ModItems.FLUORITE))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.FLUORITE_SWORD)
+                .pattern(" F ")
+                .pattern(" F ")
+                .pattern(" S ")
+                .input('F', ModItems.FLUORITE)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.FLUORITE), conditionsFromItem(ModItems.FLUORITE))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.FLUORITE_SHOVEL)
+                .pattern(" F ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('F', ModItems.FLUORITE)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.FLUORITE), conditionsFromItem(ModItems.FLUORITE))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CHAINSAW)
+                .pattern("  I")
+                .pattern("FF ")
+                .pattern("II ")
+                .input('I', Items.IRON_INGOT)
+                .input('F', ModItems.FLUORITE)
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .criterion(hasItem(ModItems.FLUORITE), conditionsFromItem(ModItems.FLUORITE))
+                .offerTo(exporter);
+
+        // Armour Recipes
     }
 }

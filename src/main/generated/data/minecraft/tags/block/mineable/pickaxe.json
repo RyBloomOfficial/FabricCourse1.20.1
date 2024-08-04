@@ -9,6 +9,13 @@
     "mccourse:fluorite_deepslate_ore",
     "mccourse:fluorite_button",
     "mccourse:fluorite_pressure_plate",
-    "mccourse:magic_block"
+    "mccourse:magic_block",
+    "mccourse:fluorite_fence",
+    "mccourse:fluorite_wall",
+    "mccourse:fluorite_fence_gate",
+    "mccourse:fluorite_door",
+    "mccourse:fluorite_trapdoor",
+    "mccourse:fluorite_pressure_plate",
+    "mccourse:fluorite_button"
   ]
 }

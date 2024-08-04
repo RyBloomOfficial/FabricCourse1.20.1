@@ -25,6 +25,12 @@ public class ModItemGroups {
 
                         entries.add(new ItemStack(ModItems.CHAINSAW));
 
+                        entries.add(new ItemStack(ModItems.FLUORITE_SWORD));
+                        entries.add(new ItemStack(ModItems.FLUORITE_AXE));
+                        entries.add(new ItemStack(ModItems.FLUORITE_SHOVEL));
+                        entries.add(new ItemStack(ModItems.FLUORITE_PICKAXE));
+                        entries.add(new ItemStack(ModItems.FLUORITE_HOE));
+
                         entries.add(new ItemStack(ModItems.STRAWBERRY));
                     }).build());
 

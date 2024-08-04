@@ -26,7 +26,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.FLUORITE_DEEPSLATE_ORE,
                         ModBlocks.FLUORITE_BUTTON,
                         ModBlocks.FLUORITE_PRESSURE_PLATE,
-                        ModBlocks.MAGIC_BLOCK);
+                        ModBlocks.MAGIC_BLOCK,
+                        ModBlocks.FLUORITE_FENCE,
+                        ModBlocks.FLUORITE_WALL,
+                        ModBlocks.FLUORITE_FENCE_GATE,
+                        ModBlocks.FLUORITE_DOOR,
+                        ModBlocks.FLUORITE_TRAPDOOR,
+                        ModBlocks.FLUORITE_PRESSURE_PLATE,
+                        ModBlocks.FLUORITE_BUTTON);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.FLUORITE_END_ORE,
@@ -35,6 +42,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.FLUORITE_ORE,
                         ModBlocks.FLUORITE_DEEPSLATE_ORE);
+
 
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.FLUORITE_WALL);
         getOrCreateTagBuilder(BlockTags.FENCES).add(ModBlocks.FLUORITE_FENCE);
