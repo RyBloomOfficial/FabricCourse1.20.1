@@ -2,6 +2,7 @@ package net.rybloom.mccourse.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
@@ -11,6 +12,7 @@ import net.minecraft.util.Identifier;
 import net.rybloom.mccourse.MCCourseMod;
 import net.rybloom.mccourse.item.custom.ChainsawItem;
 import net.rybloom.mccourse.item.custom.HammerItem;
+import net.rybloom.mccourse.item.custom.ModEffectSwordItem;
 import net.rybloom.mccourse.item.custom.PaxelItem;
 
 import java.util.List;
@@ -29,8 +31,8 @@ public class ModItems {
 
     public static final Item CHAINSAW = registerItem("chainsaw", new ChainsawItem(new Item.Settings().maxDamage(32)));
 
-    public static final Item FLUORITE_SWORD = registerItem("fluorite_sword", new SwordItem(ModToolMaterials.FLUORITE,
-            new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.FLUORITE, 3, -2.4f))));
+    public static final Item FLUORITE_SWORD = registerItem("fluorite_sword", new ModEffectSwordItem(ModToolMaterials.FLUORITE,
+            new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.FLUORITE, 3, -2.4f)), StatusEffects.LEVITATION));
     public static final Item FLUORITE_PICKAXE = registerItem("fluorite_pickaxe", new PickaxeItem(ModToolMaterials.FLUORITE,
             new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.FLUORITE, 6, -3.2f))));
     public static final Item FLUORITE_AXE = registerItem("fluorite_axe", new AxeItem(ModToolMaterials.FLUORITE,

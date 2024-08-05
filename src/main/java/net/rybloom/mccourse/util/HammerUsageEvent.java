@@ -16,6 +16,7 @@ import java.util.Set;
 
 public class HammerUsageEvent implements PlayerBlockBreakEvents.Before{
     private static final Set<BlockPos> HARVESTED_BLOCKS = new HashSet<>();
+
     @Override
     public boolean beforeBlockBreak(World world, PlayerEntity player, BlockPos pos,
                                     BlockState state, @Nullable BlockEntity blockEntity) {
@@ -34,11 +35,9 @@ public class HammerUsageEvent implements PlayerBlockBreakEvents.Before{
                 HARVESTED_BLOCKS.add(position);
                 serverPlayer.interactionManager.tryBreakBlock(position);
                 HARVESTED_BLOCKS.remove(position);
-
             }
         }
 
-
-        return false;
+        return true;
     }
 }
