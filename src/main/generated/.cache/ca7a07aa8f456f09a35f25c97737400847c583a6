@@ -1,4 +1,5 @@
-// 1.21	2024-08-04T20:46:40.263911	MC Course Mod/Model Definitions
+// 1.21	2024-08-05T00:33:54.0828014	MC Course Mod/Model Definitions
+223329d8e2937d94e30cc43aec2b29ceffbad03a assets\mccourse\models\item\fluorite_hammer.json
 e6fc48f58bef61ebac04a2e34156ad2d475179fc assets\mccourse\models\item\fluorite_block.json
 faea40b98cbb7269c546a7d3e42c40858c74ad52 assets\mccourse\models\block\fluorite_door_top_left.json
 b7d666bc87397258200dc27a96395ba532b6a945 assets\mccourse\models\block\fluorite_deepslate_ore.json
@@ -39,8 +40,8 @@ d437bcc7c62a42eb1baa4e6a0d30c09c25453e3b assets\mccourse\models\item\fluorite_wa
 4cb884f732da5e08c21211f771318b34440b09c6 assets\mccourse\models\block\fluorite_door_top_left_open.json
 f2aeca2040ea829b8b6878ebe3a168fcb74381d2 assets\mccourse\models\item\chainsaw.json
 d4ee39afb5e8982eaf3cdcbca768326104b979dd assets\mccourse\models\block\fluorite_fence_gate_open.json
-788703d1170a9f522aa937bcad4d222fdf303c80 assets\mccourse\models\block\fluorite_fence_post.json
 abe15c7d33d7a8c377b79ff8a57d04d1023779be assets\mccourse\models\block\fluorite_nether_ore.json
+788703d1170a9f522aa937bcad4d222fdf303c80 assets\mccourse\models\block\fluorite_fence_post.json
 45404775a7f3307dcc1b9859c05aed6550496db6 assets\mccourse\models\item\fluorite_deepslate_ore.json
 d6c1b58b1147ffe8efe1bb3d67bc6872170f4682 assets\mccourse\models\block\fluorite_door_bottom_right_open.json
 ffecf2734ff0a64ed0ed215212f8f169b519e72d assets\mccourse\models\item\fluorite_shovel.json
@@ -48,8 +49,8 @@ ffecf2734ff0a64ed0ed215212f8f169b519e72d assets\mccourse\models\item\fluorite_sh
 f9b91dcd506a1166fcbbe75419bafcda264de3d0 assets\mccourse\models\item\fluorite_end_ore.json
 fb2864f902591619465af0b7095f8f2161f9a3dc assets\mccourse\blockstates\fluorite_end_ore.json
 f1576a0d92bd6dddcefa45c5b355fa6c609f1c51 assets\mccourse\models\block\fluorite_button_inventory.json
-9983bb80a3099ac96a21d018fb09d81324adcb05 assets\mccourse\models\item\fluorite_axe.json
 0c557fa888aa588865ad6422a2e2cd196464ecfb assets\mccourse\models\block\fluorite_ore.json
+9983bb80a3099ac96a21d018fb09d81324adcb05 assets\mccourse\models\item\fluorite_axe.json
 0178f4806119a9622c5eb492811556ce4669a9eb assets\mccourse\models\block\fluorite_trapdoor_top.json
 55ab8e449ff54e09f2541821e53089546fa9eef9 assets\mccourse\models\block\fluorite_fence_gate_wall.json
 bc7d21f942c84b754066fc4a8c9f34dc61953149 assets\mccourse\blockstates\magic_block.json

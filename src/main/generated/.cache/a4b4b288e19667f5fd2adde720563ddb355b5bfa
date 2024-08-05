@@ -1,4 +1,4 @@
-// 1.21	2024-08-04T20:46:40.2674186	MC Course Mod/Recipes
+// 1.21	2024-08-05T00:33:54.0859076	MC Course Mod/Recipes
 3277414a9d3852bf486817383a7f8edf53f576ab data\mccourse\advancement\recipes\tools\fluorite_paxel.json
 9c30c63e50a6ce77e95628c6506ac48cf3eeb421 data\mccourse\advancement\recipes\misc\fluorite_from_blasting_fluorite_nether_ore.json
 971fc867024f837fb7cd17bf15e569b65888aad3 data\mccourse\recipe\fluorite_from_blasting_raw_fluorite.json
@@ -17,6 +17,7 @@ ea518f0cf30fcf583f249d555dca6e61ddb4fc9b data\mccourse\recipe\fluorite_trapdoor.
 6eb1195bde7f1c53fa409621fccad253e750d6ea data\mccourse\recipe\chainsaw.json
 60206743a1634afe522a9cd64b73129347c415bc data\mccourse\advancement\recipes\building_blocks\fluorite_pressure_plate.json
 18155d77723f0c5023501482f787dfea7b09ac41 data\mccourse\recipe\fluorite_from_smelting_fluorite_nether_ore.json
+ac774af724e7634d3655b82e83248b8df0cfcba2 data\mccourse\advancement\recipes\tools\fluorite_hammer.json
 478580b2dbc08016633721c236490c108ca2c1fe data\mccourse\recipe\starlight_ashes_from_smelting_fluorite.json
 6d7bc6fdf069b0621afdc97d24893d40c64c0d9c data\mccourse\advancement\recipes\building_blocks\fluorite_slab.json
 3e7f8136bf2a07233c1aba066ab279acd89085c2 data\mccourse\recipe\fluorite_sword.json
@@ -38,6 +39,7 @@ a900532ea7b0a6f31907c89736a7b293326ba3a3 data\mccourse\recipe\fluorite_door.json
 bce8929307461541426ef2a01db62f7bd524897c data\mccourse\advancement\recipes\misc\fluorite_from_smelting_fluorite_ore.json
 cc77963c158c17df5e73464820f49eb59bb61200 data\mccourse\recipe\fluorite.json
 b37363f5153079472aff3bc4e76002fd0783fa4e data\mccourse\recipe\fluorite_from_blasting_fluorite_ore.json
+66c7cd3ff90869ad1b03988bc631f9a333ed1fe5 data\mccourse\recipe\fluorite_hammer.json
 c38a88bb9ff0bf103ec8b14015317a1e77281dc9 data\mccourse\advancement\recipes\misc\fluorite_from_smelting_fluorite_deepslate_ore.json
 28814cdb45aa60128669cb923f6f4a93888d84b7 data\mccourse\recipe\fluorite_slab.json
 cea0a6572e4c40029b462277ef18acecba380e08 data\mccourse\recipe\fluorite_from_smelting_fluorite_ore.json

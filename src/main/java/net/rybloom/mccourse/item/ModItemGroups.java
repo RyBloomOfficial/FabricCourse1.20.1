@@ -32,6 +32,7 @@ public class ModItemGroups {
                         entries.add(new ItemStack(ModItems.FLUORITE_HOE));
 
                         entries.add(new ItemStack(ModItems.FLUORITE_PAXEL));
+                        entries.add(new ItemStack(ModItems.FLUORITE_HAMMER));
 
                         entries.add(new ItemStack(ModItems.STRAWBERRY));
                     }).build());

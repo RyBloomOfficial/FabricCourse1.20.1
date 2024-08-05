@@ -10,6 +10,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.rybloom.mccourse.MCCourseMod;
 import net.rybloom.mccourse.item.custom.ChainsawItem;
+import net.rybloom.mccourse.item.custom.HammerItem;
 import net.rybloom.mccourse.item.custom.PaxelItem;
 
 import java.util.List;
@@ -39,7 +40,9 @@ public class ModItems {
     public static final Item FLUORITE_HOE = registerItem("fluorite_hoe", new HoeItem(ModToolMaterials.FLUORITE,
             new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.FLUORITE, 0, -3f))));
     public static final Item FLUORITE_PAXEL = registerItem("fluorite_paxel", new PaxelItem(ModToolMaterials.FLUORITE,
-            new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.FLUORITE, 6, -3.2f))));
+            new Item.Settings().attributeModifiers(PaxelItem.createAttributeModifiers(ModToolMaterials.FLUORITE, 6, -3.2f))));
+    public static final Item FLUORITE_HAMMER = registerItem("fluorite_hammer", new HammerItem(ModToolMaterials.FLUORITE,
+            new Item.Settings().attributeModifiers(HammerItem.createAttributeModifiers(ModToolMaterials.FLUORITE, 8, -3.4f))));
 
     public static final Item STRAWBERRY = registerItem("strawberry", new Item(new Item.Settings().food(ModFoodComponents.STRAWBERRY)) {
         @Override

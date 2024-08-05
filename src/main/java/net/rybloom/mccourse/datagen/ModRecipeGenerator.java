@@ -203,6 +203,16 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.FLUORITE_HAMMER)
+                .pattern(" F ")
+                .pattern(" SF")
+                .pattern("S  ")
+                .input('F', ModItems.FLUORITE)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.FLUORITE), conditionsFromItem(ModItems.FLUORITE))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
         // Armour Recipes
     }
 }
