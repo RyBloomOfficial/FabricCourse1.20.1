@@ -1,7 +1,8 @@
-// 1.21	2024-08-04T16:29:00.9432196	MC Course Mod/Tags for minecraft:block
+// 1.21	2024-08-04T20:46:40.2664105	MC Course Mod/Tags for minecraft:block
 dc1b4409beff154ab683281af6c24167fc0ed0e7 data\minecraft\tags\block\walls.json
 fff4f8dcb2118c8d1e54b5ebb2359296399e6d31 data\minecraft\tags\block\needs_diamond_tool.json
 6418518a2c1d692c61cd63028d5b2af1780bf047 data\minecraft\tags\block\mineable\pickaxe.json
 470bec0afd29fe43bf1667ea283e1706164ea4be data\minecraft\tags\block\fences.json
-f7195f176d8f383d5dafa778fccf8c74db194eac data\minecraft\tags\block\fence_gates.json
+82362cfbd1836db13c7e9d36c8712821e795ac55 data\mccourse\tags\block\paxel_mineable.json
 410a352cd2ed1abbb0052a2e79ac226acb31adac data\minecraft\tags\block\needs_iron_tool.json
+f7195f176d8f383d5dafa778fccf8c74db194eac data\minecraft\tags\block\fence_gates.json

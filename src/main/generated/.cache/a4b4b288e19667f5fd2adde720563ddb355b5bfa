@@ -1,4 +1,5 @@
-// 1.21	2024-08-04T16:29:00.9442079	MC Course Mod/Recipes
+// 1.21	2024-08-04T20:46:40.2674186	MC Course Mod/Recipes
+3277414a9d3852bf486817383a7f8edf53f576ab data\mccourse\advancement\recipes\tools\fluorite_paxel.json
 9c30c63e50a6ce77e95628c6506ac48cf3eeb421 data\mccourse\advancement\recipes\misc\fluorite_from_blasting_fluorite_nether_ore.json
 971fc867024f837fb7cd17bf15e569b65888aad3 data\mccourse\recipe\fluorite_from_blasting_raw_fluorite.json
 f4ad5fb5c77adbbfd4a39ae6017f01ca411db54a data\mccourse\recipe\starlight_ashes_from_blasting_fluorite.json
@@ -10,6 +11,7 @@ f06c01637b61330651400f5e1ec5f162978c4660 data\mccourse\recipe\fluorite_shovel.js
 a124d67cc8fbc82ff978beee73889ef460f7fa77 data\mccourse\recipe\raw_fluorite_2.json
 8783c8ebdb9edd8e214aac1682fef8f091c41b02 data\mccourse\advancement\recipes\building_blocks\fluorite_wall.json
 3750b9c52581d4a82bb0628ec7d0914c5c903e7e data\mccourse\advancement\recipes\building_blocks\fluorite_button.json
+3573b6436a0b5e6cd14ef439ba43d02ab4b358ba data\mccourse\recipe\fluorite_paxel.json
 0fa0af4287a1a80ab9a17e6b7e20cbc6eb02b767 data\mccourse\advancement\recipes\building_blocks\fluorite_trapdoor.json
 ea518f0cf30fcf583f249d555dca6e61ddb4fc9b data\mccourse\recipe\fluorite_trapdoor.json
 6eb1195bde7f1c53fa409621fccad253e750d6ea data\mccourse\recipe\chainsaw.json

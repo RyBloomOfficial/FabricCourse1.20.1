@@ -189,6 +189,20 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.FLUORITE), conditionsFromItem(ModItems.FLUORITE))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.FLUORITE_PAXEL)
+                .pattern("SAP")
+                .pattern(" # ")
+                .pattern(" # ")
+                .input('P', ModItems.FLUORITE_PICKAXE)
+                .input('A', ModItems.FLUORITE_AXE)
+                .input('S', ModItems.FLUORITE_SHOVEL)
+                .input('#', Items.STICK)
+                .criterion(hasItem(ModItems.FLUORITE_PICKAXE), conditionsFromItem(ModItems.FLUORITE_PICKAXE))
+                .criterion(hasItem(ModItems.FLUORITE_AXE), conditionsFromItem(ModItems.FLUORITE_AXE))
+                .criterion(hasItem(ModItems.FLUORITE_SHOVEL), conditionsFromItem(ModItems.FLUORITE_SHOVEL))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
         // Armour Recipes
     }
 }

@@ -31,6 +31,8 @@ public class ModItemGroups {
                         entries.add(new ItemStack(ModItems.FLUORITE_PICKAXE));
                         entries.add(new ItemStack(ModItems.FLUORITE_HOE));
 
+                        entries.add(new ItemStack(ModItems.FLUORITE_PAXEL));
+
                         entries.add(new ItemStack(ModItems.STRAWBERRY));
                     }).build());
 

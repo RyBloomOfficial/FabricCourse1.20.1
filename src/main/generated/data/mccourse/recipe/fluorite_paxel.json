@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "A": {
+      "item": "mccourse:fluorite_axe"
+    },
+    "P": {
+      "item": "mccourse:fluorite_pickaxe"
+    },
+    "S": {
+      "item": "mccourse:fluorite_shovel"
+    }
+  },
+  "pattern": [
+    "SAP",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mccourse:fluorite_paxel"
+  }
+}
