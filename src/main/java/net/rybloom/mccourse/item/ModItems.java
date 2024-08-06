@@ -10,10 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.rybloom.mccourse.MCCourseMod;
-import net.rybloom.mccourse.item.custom.ChainsawItem;
-import net.rybloom.mccourse.item.custom.HammerItem;
-import net.rybloom.mccourse.item.custom.ModEffectSwordItem;
-import net.rybloom.mccourse.item.custom.PaxelItem;
+import net.rybloom.mccourse.item.custom.*;
 
 import java.util.List;
 
@@ -46,13 +43,13 @@ public class ModItems {
     public static final Item FLUORITE_HAMMER = registerItem("fluorite_hammer", new HammerItem(ModToolMaterials.FLUORITE,
             new Item.Settings().attributeModifiers(HammerItem.createAttributeModifiers(ModToolMaterials.FLUORITE, 8, -3.4f))));
 
-    public static final Item FLUORITE_HELMET = registerItem("fluorite_helmet", new ArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+    public static final Item FLUORITE_HELMET = registerItem("fluorite_helmet", new ModArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
             new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
-    public static final Item FLUORITE_CHESTPLATE = registerItem("fluorite_chestplate", new ArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+    public static final Item FLUORITE_CHESTPLATE = registerItem("fluorite_chestplate", new ModArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
             new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
-    public static final Item FLUORITE_BOOTS = registerItem("fluorite_boots", new ArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+    public static final Item FLUORITE_BOOTS = registerItem("fluorite_boots", new ModArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
             new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
-    public static final Item FLUORITE_LEGGINGS = registerItem("fluorite_leggings", new ArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+    public static final Item FLUORITE_LEGGINGS = registerItem("fluorite_leggings", new ModArmorItem(ModArmorMaterials.FLUORITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
             new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
 
 
