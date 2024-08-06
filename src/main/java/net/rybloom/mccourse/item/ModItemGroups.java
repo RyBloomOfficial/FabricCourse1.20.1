@@ -34,6 +34,11 @@ public class ModItemGroups {
                         entries.add(new ItemStack(ModItems.FLUORITE_PAXEL));
                         entries.add(new ItemStack(ModItems.FLUORITE_HAMMER));
 
+                        entries.add(new ItemStack(ModItems.FLUORITE_HELMET));
+                        entries.add(new ItemStack(ModItems.FLUORITE_CHESTPLATE));
+                        entries.add(new ItemStack(ModItems.FLUORITE_BOOTS));
+                        entries.add(new ItemStack(ModItems.FLUORITE_LEGGINGS));
+
                         entries.add(new ItemStack(ModItems.STRAWBERRY));
                     }).build());
 

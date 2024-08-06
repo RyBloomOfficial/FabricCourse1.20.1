@@ -214,5 +214,39 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .offerTo(exporter);
 
         // Armour Recipes
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.FLUORITE_HELMET)
+                .pattern("FFF")
+                .pattern("F F")
+                .pattern("   ")
+                .input('F', ModItems.FLUORITE)
+                .criterion(hasItem(ModItems.FLUORITE), conditionsFromItem(ModItems.FLUORITE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.FLUORITE_CHESTPLATE)
+                .pattern("F F")
+                .pattern("FFF")
+                .pattern("FFF")
+                .input('F', ModItems.FLUORITE)
+                .criterion(hasItem(ModItems.FLUORITE), conditionsFromItem(ModItems.FLUORITE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.FLUORITE_LEGGINGS)
+                .pattern("FFF")
+                .pattern("F F")
+                .pattern("F F")
+                .input('F', ModItems.FLUORITE)
+                .criterion(hasItem(ModItems.FLUORITE), conditionsFromItem(ModItems.FLUORITE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.FLUORITE_BOOTS)
+                .pattern("   ")
+                .pattern("F F")
+                .pattern("F F")
+                .input('F', ModItems.FLUORITE)
+                .criterion(hasItem(ModItems.FLUORITE), conditionsFromItem(ModItems.FLUORITE))
+                .offerTo(exporter);
+
+
     }
 }
